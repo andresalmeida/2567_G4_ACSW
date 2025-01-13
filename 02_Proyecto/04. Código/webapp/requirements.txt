@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pandas
+numpy
+matplotlib
+jinja2
+openpyxl
+behave
+requests
+pytest
+pytest-bdd
+psutil
