@@ -1,36 +1,24 @@
-# Project Title
+Seguimiento de Actas de Auditorías
 
-## Description
-Brief description of your project.
+Descripción
 
-## Installation
-Steps to install your project:
+Este repositorio contiene tres actas en formato PDF relacionadas con el seguimiento de auditorías internas realizadas en la organización. Proporciona documentación para la visualización y revisión de las actas.
 
-```bash
-# Example installation commands
-```
+Uso
 
-## Usage
-How to use your project:
+Cómo visualizar las actas incluidas en el repositorio:
 
-```bash
-# Example usage commands
-```
+Abre la carpeta de actas.
 
-## Features
-* Feature 1
-* Feature 2
-* Feature 3
+Localiza los archivos en formato PDF.
 
-## Contributing
-Instructions for how to contribute to your project.
+Usa cualquier lector de PDF para visualizarlas.
 
-## License
-[Choose a license](https://choosealicense.com/)
+Características
 
-## Contact
-Your contact information.
+Tres actas de seguimiento en formato PDF.
 
-## Acknowledgments
-* Person/Organization 1
-* Person/Organization 2
+Documentación clara para la revisión y gestión de auditorías internas.
+
+Fácil acceso y visualización.
+
