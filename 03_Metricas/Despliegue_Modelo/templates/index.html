@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción de Salario</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Predicción de Salario - Mejor Modelo</h1>
+        <form id="predict-form">
+            <label for="Edad">Edad:</label>
+            <input type="number" id="Edad" name="Edad" required><br>
+
+            <label for="ClaseObrera">Clase Obrera:</label>
+            <input type="text" id="ClaseObrera" name="ClaseObrera" required><br>
+
+            <label for="PesoFinal">Peso Final:</label>
+            <input type="number" id="PesoFinal" name="PesoFinal" required><br>
+
+            <label for="Educacion">Educacion:</label>
+            <input type="text" id="Educacion" name="Educacion" required><br>
+
+            <label for="EducacionNum">Educacion Num:</label>
+            <input type="number" id="EducacionNum" name="EducacionNum" required><br>
+
+            <label for="EstadoMarital">Estado Marital:</label>
+            <input type="text" id="EstadoMarital" name="EstadoMarital" required><br>
+
+            <label for="Ocupacion">Ocupacion:</label>
+            <input type="text" id="Ocupacion" name="Ocupacion" required><br>
+
+            <label for="EstadoCivil">Estado Civil:</label>
+            <input type="text" id="EstadoCivil" name="EstadoCivil" required><br>
+
+            <label for="Raza">Raza:</label>
+            <input type="text" id="Raza" name="Raza" required><br>
+
+            <label for="Sexo">Sexo:</label>
+            <input type="text" id="Sexo" name="Sexo" required><br>
+
+            <label for="GananciasCapital">Ganancias Capital:</label>
+            <input type="number" id="GananciasCapital" name="GananciasCapital" required><br>
+
+            <label for="PerdidasCapital">Perdidas Capital:</label>
+            <input type="number" id="PerdidasCapital" name="PerdidasCapital" required><br>
+
+            <label for="HorasPorSemana">Horas Por Semana:</label>
+            <input type="number" id="HorasPorSemana" name="HorasPorSemana" required><br>
+
+            <label for="Pais">Pais:</label>
+            <input type="text" id="Pais" name="Pais" required><br>
+
+            <button type="submit">Predecir</button>
+        </form>
+        <div id="result">
+            <h2>Predicción:</h2>
+            <p id="prediction">N/A</p>
+            <h2>Probabilidad de que el sueldo sea >= $50,000:</h2>
+            <p id="probability">N/A</p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
